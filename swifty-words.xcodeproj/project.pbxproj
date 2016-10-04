@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F9B5EC291DA3E50900ED1A7A /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = F9B5EC281DA3E50900ED1A7A /* level2.txt */; };
 		F9BB83201D9CB7B20021F2DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BB831F1D9CB7B20021F2DA /* AppDelegate.swift */; };
 		F9BB83221D9CB7B20021F2DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BB83211D9CB7B20021F2DA /* ViewController.swift */; };
 		F9BB83251D9CB7B20021F2DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BB83231D9CB7B20021F2DA /* Main.storyboard */; };
 		F9BB83271D9CB7B20021F2DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9BB83261D9CB7B20021F2DA /* Assets.xcassets */; };
 		F9BB832A1D9CB7B20021F2DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BB83281D9CB7B20021F2DA /* LaunchScreen.storyboard */; };
+		F9C5B3CA1D9D4F4D0010298E /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = F9C5B3C91D9D4F4D0010298E /* level1.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F9B5EC281DA3E50900ED1A7A /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
 		F9BB831C1D9CB7B20021F2DA /* swifty-words.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swifty-words.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9BB831F1D9CB7B20021F2DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9BB83211D9CB7B20021F2DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		F9BB83261D9CB7B20021F2DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9BB83291D9CB7B20021F2DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9BB832B1D9CB7B20021F2DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9C5B3C91D9D4F4D0010298E /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				F9BB83261D9CB7B20021F2DA /* Assets.xcassets */,
 				F9BB83281D9CB7B20021F2DA /* LaunchScreen.storyboard */,
 				F9BB832B1D9CB7B20021F2DA /* Info.plist */,
+				F9C5B3C91D9D4F4D0010298E /* level1.txt */,
+				F9B5EC281DA3E50900ED1A7A /* level2.txt */,
 			);
 			path = "swifty-words";
 			sourceTree = "<group>";
@@ -123,7 +129,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9B5EC291DA3E50900ED1A7A /* level2.txt in Resources */,
 				F9BB832A1D9CB7B20021F2DA /* LaunchScreen.storyboard in Resources */,
+				F9C5B3CA1D9D4F4D0010298E /* level1.txt in Resources */,
 				F9BB83271D9CB7B20021F2DA /* Assets.xcassets in Resources */,
 				F9BB83251D9CB7B20021F2DA /* Main.storyboard in Resources */,
 			);
@@ -299,6 +307,7 @@
 				F9BB83301D9CB7B20021F2DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
